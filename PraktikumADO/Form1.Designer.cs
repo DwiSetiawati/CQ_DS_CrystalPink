@@ -48,6 +48,7 @@
             this.btnConnect.TabIndex = 0;
             this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = false;
+            this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
             // btnHitungMhs
             // 
@@ -58,6 +59,7 @@
             this.btnHitungMhs.TabIndex = 1;
             this.btnHitungMhs.Text = "Hitung Mhs";
             this.btnHitungMhs.UseVisualStyleBackColor = false;
+            this.btnHitungMhs.Click += new System.EventHandler(this.btnHitungMhs_Click);
             // 
             // btnHitungMk
             // 
@@ -68,6 +70,7 @@
             this.btnHitungMk.TabIndex = 2;
             this.btnHitungMk.Text = "Hitung Mk";
             this.btnHitungMk.UseVisualStyleBackColor = false;
+            this.btnHitungMk.Click += new System.EventHandler(this.btnHitungMk_Click);
             // 
             // btnUpdate
             // 
@@ -78,6 +81,7 @@
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnHitungDsn
             // 
@@ -88,6 +92,7 @@
             this.btnHitungDsn.TabIndex = 6;
             this.btnHitungDsn.Text = "Hitung Dsn";
             this.btnHitungDsn.UseVisualStyleBackColor = false;
+            this.btnHitungDsn.Click += new System.EventHandler(this.btnHitungDsn_Click);
             // 
             // btnUpdateMK
             // 
@@ -98,6 +103,7 @@
             this.btnUpdateMK.TabIndex = 7;
             this.btnUpdateMK.Text = "Update Mk";
             this.btnUpdateMK.UseVisualStyleBackColor = false;
+            this.btnUpdateMK.Click += new System.EventHandler(this.btnUpdateMK_Click);
             // 
             // btnInsertProdi
             // 
@@ -108,6 +114,7 @@
             this.btnInsertProdi.TabIndex = 8;
             this.btnInsertProdi.Text = "Tambah Prodi";
             this.btnInsertProdi.UseVisualStyleBackColor = false;
+            this.btnInsertProdi.Click += new System.EventHandler(this.btnInsertProdi_Click);
             // 
             // label1
             // 
@@ -118,6 +125,7 @@
             this.label1.Size = new System.Drawing.Size(60, 25);
             this.label1.TabIndex = 9;
             this.label1.Text = "Hasil";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtHasil
             // 
@@ -125,6 +133,7 @@
             this.txtHasil.Name = "txtHasil";
             this.txtHasil.Size = new System.Drawing.Size(508, 22);
             this.txtHasil.TabIndex = 10;
+            this.txtHasil.TextChanged += new System.EventHandler(this.txtHasil_TextChanged);
             // 
             // Form1
             // 
